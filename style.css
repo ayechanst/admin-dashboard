@@ -1,3 +1,100 @@
+
 body {
-    background-color: blanchedalmond;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 20% 80%; 
+    grid-template-rows: 15% 85%;
 }
+.header-container {
+    background-color: whitesmoke;
+    display: grid;
+}
+
+.dashboard-wrapper {
+    background-color: lightblue;
+    display: grid;
+}
+
+.main {
+    background-color: lightgray;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* zoom 2 */
+
+.dashboard-wrapper {
+    grid-row: 1 / span 2;
+}
+
+.projects-container {
+    display: grid;
+    grid-row: 1 / span 2;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10%;
+}
+
+/*  projects */
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: whitesmoke;
+}
+
+.handle {
+    background-color: orange;
+}
+
+/* Announcements */
+
+.announcements {
+    background-color: whitesmoke;
+}
+
+
+
+
+/* Trending */
+
+.profiles {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
