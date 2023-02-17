@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    sodipodi:docname="vlad.svg"
+    viewBox="0 0 200.88 430.22"
+    sodipodi:version="0.32"
+    version="1.0"
+    inkscape:output_extension="org.inkscape.output.svg.inkscape"
+    inkscape:version="0.46"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      guidetolerance="10"
+      pagecolor="#ffffff"
+      gridtolerance="10000"
+      inkscape:zoom="0.81792272"
+      objecttolerance="10"
+      showgrid="true"
+      borderopacity="1.0"
+      inkscape:current-layer="g3257"
+      inkscape:cx="126.70278"
+      inkscape:cy="58.748747"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+    >
+    <inkscape:grid
+        id="grid2412"
+        type="xygrid"
+    />
+  </sodipodi:namedview
+  >
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-399.06 -126.15)"
+    >
+    <g
+        id="g3247"
+        transform="matrix(1.1193 -1.2207 1.2207 1.1193 -479.05 328.78)"
+      >
+      <g
+          id="g3257"
+          transform="matrix(.67210 .74046 -.74046 .67210 395.39 -185.05)"
+        >
+        <path
+            id="path2455"
+            style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:#000000"
+            sodipodi:nodetypes="ccscsccsccccsccccccccccsccccccccsccccccccsscccccssssc"
+            d="m223.47 74.812c-3.38 0-5.97 28.888-8.03 51.908-2.96-22.82 3.43-44.847 1.97-44.095-3.38 1.734-27.61 70.385-4.75 114.56 0 0.43-0.26 0.92 0 1.26 19.43 25.15 6.81 59.99 3.84 82.12-13.45-14.53-39.75-24.58-70.25-25.18-3.69-4.55-9.49-7.5-16.03-7.5-8.12 0-15.11 4.53-18.31 11.03-26.4 6.21-45.96 19.97-50.348 36.59l-0.531-0.22 0.031 2.44c-0.289 1.61-0.437 3.22-0.437 4.87 0 1.97 0.218 3.92 0.625 5.82l0.406 22.03 2.282 18.03c-3.576 3.59-5.236 8.94-3.907 14.15l3.625 14.22c1.713 6.73 7.823 10.98 14.438 10.57-0.724 1.27-1.156 2.74-1.156 4.31-3.774 3.7-6.531 8.08-3.469 16.34-4.443 5.48-1.335 10.96 0.875 16.44-3.018 4.19-10.084 4.31-6.906 14.69-2.509 2.45-3.525 6.01-5.876 8.25-3.78 3.6-3.444 10.18 1.532 16.84-11.198 7.83 1.43 35.35-8.188 41.41l129.9-1.16 12.63-24.75 19.05 2.51c3.14 0.91 5.13 0.21 7.95-1.01 5.58-2.51 10.58-5.79 12.37-13.34-1.79-6.72-2.26-13.44-7.06-20.16-1.83-1.61-0.78-2.91 7.53-8.16l-0.03-4.9-5.78-3.88 6.31-2.22c5.33-7.88-0.24-11.5-2.03-15.37l13.66 1.25c2.86 0.53 5.2 0.02 5.78-4.03-3.4-7.04-9.86-20.19-14.78-30.28l-13.53-10.91c0.3-2.59 5.68-6.52 5.68-9.19 0-4.15-2.92-9.29-3.4-13.84-0.05-0.4-0.11-0.79-0.16-1.19l0.78-0.22c7.69-2.17 12.32-10.16 10.34-17.9l-3.65-14.22c-1.16-4.56-4.33-7.99-8.31-9.6 0.08-1.01 0.14-2.11 0.22-3.34 0.01-0.36 0.04-0.83 0.06-1.22 0-0.02-0.01-0.04 0-0.06 3.95-16.96 15.97-56.35 6.72-100.06-12.34-58.31-5.72-123.59-11.69-123.63z"
+            transform="matrix(.60379 -.0030365 .0030365 .60379 367.53 247.43)"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Vlad Dracul Tepes the Impaler Profile</dc:title
+        >
+        <dc:date
+          >2011-08-22T13:06:11</dc:date
+        >
+        <dc:description
+          >Vlad the Impaler Silhouette</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/157465/vlad-dracul-tepes-the-impaler-profile-by-studio_hades</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >studio_hades</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >Profile</rdf:li
+            >
+            <rdf:li
+              >Silhouette</rdf:li
+            >
+            <rdf:li
+              >Tepes</rdf:li
+            >
+            <rdf:li
+              >Vampire</rdf:li
+            >
+            <rdf:li
+              >Vlad Dracula</rdf:li
+            >
+            <rdf:li
+              >the Impaler</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
