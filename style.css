@@ -1,6 +1,7 @@
 
 body {
     margin: 0px;
+    height: 550px;
     display: grid;
     grid-template-columns: 20% 80%; 
     grid-template-rows: 15% 85%;
@@ -48,14 +49,27 @@ body {
 
 .project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5% 95%;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: whitesmoke;
 }
 
 .handle {
     background-color: orange;
+    grid-row: 1 / span 3;
 }
+
+.description {
+    font-size: xx-small;
+}
+
+img[src="./icons/star-plus-outline.svg"],
+img[src="./icons/eye.svg"],
+img[src="./icons/source-branch.svg"] {
+    height: 10px;
+    width: auto;
+}
+
 
 /* Announcements */
 
