@@ -1,10 +1,16 @@
 
+@font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto/Roboto-Black.ttf);
+}
+
 body {
     margin: 0px;
     height: 550px;
     display: grid;
     grid-template-columns: 20% 80%; 
     grid-template-rows: 15% 85%;
+    font-family: roboto;
 }
 .header-container {
     background-color: whitesmoke;
@@ -39,6 +45,36 @@ body {
     grid-template-rows: 10%;
 }
 
+
+/* dash baord */
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.dashboard-wrapper > div > div {
+    display: flex;
+    gap: 15px;
+}
+
+.dashboard-main,
+.dashboard-footer {
+    display: grid;
+    gap: 10px;
+}
+
+.dashboard-header img {
+    height: 25px;
+}
+
+
+.dashboard-wrapper img {
+    height: 15px;    
+}
+
 /*  projects */
 
 .projects {
@@ -50,7 +86,6 @@ body {
 .project-container {
     display: grid;
     grid-template-columns: 5% 95%;
-    grid-template-rows: 1fr 1fr 1fr;
     background-color: whitesmoke;
 }
 
@@ -76,7 +111,6 @@ img[src="./icons/source-branch.svg"] {
 .announcements {
     background-color: whitesmoke;
 }
-
 
 
 
