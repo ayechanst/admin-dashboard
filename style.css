@@ -18,7 +18,7 @@ body {
 }
 
 .dashboard-wrapper {
-    background-color: lightblue;
+    background-color: #0ea5e9;
     display: grid;
 }
 
@@ -26,8 +26,15 @@ body {
     background-color: lightgray;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    padding: 15px;
 }
+
+.main > section {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* zoom 2 */
 
@@ -36,8 +43,8 @@ body {
 }
 
 .projects-container {
-    display: grid;
-    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -45,14 +52,33 @@ body {
     grid-template-rows: 10%;
 }
 
-
 /* dash baord */
+
+.icon {
+    filter: invert(98%) sepia(27%) saturate(124%) hue-rotate(87deg) brightness(103%) contrast(97%);
+}
+
+.dashboard-header {
+    display: flex;
+}    
+
+.dashboard-header > div {
+    font-size: large;
+    align-items: center;
+}
+
+#big {
+    height: 25px;
+    width: auto;
+}
 
 .dashboard-wrapper {
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 30px;
+    font-size: smaller;
+    color: #f8fafc;
 }
 
 .dashboard-wrapper > div > div {
@@ -66,11 +92,6 @@ body {
     gap: 10px;
 }
 
-.dashboard-header img {
-    height: 25px;
-}
-
-
 .dashboard-wrapper img {
     height: 15px;    
 }
@@ -81,6 +102,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+}
+
+.projects-container {
+    grid-row: 1 / span 2;
 }
 
 .project-container {
@@ -108,13 +133,31 @@ img[src="./icons/source-branch.svg"] {
 
 /* Announcements */
 
-.announcements {
-    background-color: whitesmoke;
+.announcement-container {
+    padding-left: 15px;
 }
 
+.announcements {
+    background-color: whitesmoke;
+    display: grid;
+    padding: 20px;
+    font-size: x-small;
+}
 
-
+.announcement-container > div > div {
+    display: flex;
+    flex-direction: column;
+}
+.announcement-container > div {
+    gap: 20px;
+    
+}
 /* Trending */
+
+.trending-container {
+    padding-left: 15px;
+}
+
 
 .profiles {
     background-color: whitesmoke;
