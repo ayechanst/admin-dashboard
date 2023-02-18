@@ -15,6 +15,7 @@ body {
 .header-container {
     background-color: whitesmoke;
     display: grid;
+    padding: 10px;
 }
 
 .dashboard-wrapper {
@@ -52,7 +53,31 @@ body {
     grid-template-rows: 10%;
 }
 
-/* dash baord */
+/* header upper*/
+
+.search-bar > img {
+    height: 15px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+/* header lower */
+
+.profile {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.profile > img {
+    height: 25px;
+    grid-row: 1 / span 2;
+}
+
+
+/* dash board */
 
 .icon {
     filter: invert(98%) sepia(27%) saturate(124%) hue-rotate(87deg) brightness(103%) contrast(97%);
@@ -157,6 +182,7 @@ img[src="./icons/source-branch.svg"] {
 
 .profiles > div {
     font-size: x-small;
+    display: grid;
 }
 
 .trending-container {
@@ -168,13 +194,13 @@ img[src="./icons/source-branch.svg"] {
     background-color: whitesmoke;
 }
 
-.profile {
+.profile-pic {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 50% 50%;
 }
 
-.profile img {
+.profile-pic img {
     grid-row: 1 / span 2;
     height: 30px;
     width: 30px;
