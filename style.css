@@ -4,6 +4,11 @@
     src: url(/fonts/Roboto/Roboto-Black.ttf);
 }
 
+@font-face {
+    font-family: robotoLight;
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+}
+
 body {
     margin: 0px;
     height: 550px;
@@ -158,6 +163,10 @@ button {
 
 /*  projects */
 
+.project-header {
+    padding-bottom: 10px;
+}
+
 .projects {
     display: grid;
     flex-basis: 420px;
@@ -171,24 +180,42 @@ button {
 
 .project-container {
     display: grid;
-    grid-template-columns: 5% 95%;
+    grid-template-columns: 2.5% 97.5%;
     background-color: whitesmoke;
+    border-radius: 7px;
 }
 
 .handle {
-    background-color: orange;
+    background-color: #eab308;
     grid-row: 1 / span 3;
+    border-top-left-radius: 15px;    
+    border-bottom-left-radius: 15px;
+}
+
+.project {
+    display: grid;
+    align-self: end;
+    padding-left: 20px;
 }
 
 .description {
+    font-family: robotoLight;
     font-size: xx-small;
+    padding-left: 20px;
 }
 
 img[src="./icons/star-plus-outline.svg"],
 img[src="./icons/eye.svg"],
 img[src="./icons/source-branch.svg"] {
-    height: 10px;
+    height: 15px;
     width: auto;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 20px;
 }
 
 
