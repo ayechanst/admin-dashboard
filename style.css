@@ -50,6 +50,7 @@ body {
 .projects-container {
     display: flex;
     flex-direction: column;
+    flex-basis: stretch;
 }
 
 .container {
@@ -102,7 +103,7 @@ input {
 .profile {
     display: flex;
     justify-content: space-between;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .hero {
@@ -113,9 +114,15 @@ input {
     width: 400px;
 }
 
+.hero img {
+    border-radius: 25px;
+    padding-bottom: 14px;
+}
+
 .hi {
     font-weight: 100;
     font-size: small;
+    padding-left: 6px;
 }
 
 
@@ -124,12 +131,22 @@ input {
     grid-row: 1 / span 2;
 }
 
+.buttons {
+    padding-top: 10px;
+    gap: 25px;
+}
+
 button {
     background-color: #0ea5e9;
     border-radius: 15px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: none;
     color:#f8fafc;
+    font-size: small;
+    margin: 5px;
 }
 
 
@@ -250,15 +267,15 @@ font-family: robotoLight;
 }
 
 .announcement-container {
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .announcements {
     background-color: whitesmoke;
     display: grid;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    font-size: x-small;
+    font-size: xx-small;
     box-shadow: 5px 5px 10px darkgrey;
 }
 
@@ -292,9 +309,9 @@ font-family: robotoLight;
 .profiles {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px darkgrey;
 }
