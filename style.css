@@ -183,6 +183,7 @@ button {
     grid-template-columns: 2.5% 97.5%;
     background-color: whitesmoke;
     border-radius: 7px;
+    box-shadow: 5px 5px 10px darkgrey;
 }
 
 .handle {
@@ -196,12 +197,14 @@ button {
     display: grid;
     align-self: end;
     padding-left: 20px;
+    font-weight: 500;
 }
 
 .description {
     font-family: robotoLight;
-    font-size: xx-small;
+    font-size: x-small;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 img[src="./icons/star-plus-outline.svg"],
@@ -221,6 +224,10 @@ img[src="./icons/source-branch.svg"] {
 
 /* Announcements */
 
+.announcement-header {
+    padding-bottom: 10px;
+}
+
 .announcement-container {
     padding-left: 15px;
 }
@@ -229,7 +236,9 @@ img[src="./icons/source-branch.svg"] {
     background-color: whitesmoke;
     display: grid;
     padding: 20px;
+    border-radius: 10px;
     font-size: x-small;
+    box-shadow: 5px 5px 10px darkgrey;
 }
 
 .announcement-container > div > div {
@@ -238,7 +247,10 @@ img[src="./icons/source-branch.svg"] {
 }
 .announcement-container > div {
     gap: 20px;
-    
+}
+
+.annoucement {
+    border-bottom: 3px solid lightslategray;
 }
 /* Trending */
 
