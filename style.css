@@ -59,9 +59,25 @@ body {
 
 /* header upper*/
 
+.search-bar img {
+    padding-top: 2px;
+}
+
+.stuff > div {
+    font-size: small;
+}
+
 .upper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 350px;
+    border: none;
+    border-radius: 25px;
+    background-color: lightgray;
 }
 
 .stuff {
