@@ -40,7 +40,6 @@ body {
     flex-direction: column;
 }
 
-
 /* zoom 2 */
 
 .dashboard-wrapper {
@@ -268,7 +267,7 @@ font-family: robotoLight;
 
 .announcement-container {
     padding-left: 10px;
-}
+} 
 
 .announcements {
     background-color: whitesmoke;
